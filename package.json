@@ -1,0 +1,19 @@
+{
+  "name": "royal-tacosperry",
+  "version": "1.0.0",
+  "description": "Proyecto de HTML Tacos Perry",
+  "main": "index.html",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaespinol/Royal-TacosPerry.git"
+  },
+  "author": "Jose Antonio Espino Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaespinol/Royal-TacosPerry/issues"
+  },
+  "homepage": "https://github.com/jaespinol/Royal-TacosPerry#readme"
+}
