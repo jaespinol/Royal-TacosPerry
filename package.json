@@ -4,7 +4,8 @@
   "description": "Proyecto de HTML Tacos Perry",
   "main": "index.html",
   "scripts": {
-    "test": "dev"
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/jaespinol/Royal-TacosPerry/issues"
   },
-  "homepage": "https://github.com/jaespinol/Royal-TacosPerry#readme"
+  "homepage": "https://github.com/jaespinol/Royal-TacosPerry#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4",
+    "popper.js": "^1.16.1"
+  }
 }
