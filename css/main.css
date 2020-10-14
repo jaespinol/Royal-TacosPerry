@@ -1,0 +1,10 @@
+.jumbotron {
+    background-color: rgb(189, 50, 7);
+    color: #ffffff;
+}
+
+.card-design {
+    flex: 1 250px;
+    padding: 2px 0px 2px 0px; 
+    margin-top: 10px;
+    }
