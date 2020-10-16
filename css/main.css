@@ -1,3 +1,8 @@
+.bg-naranja {
+    background-color: rgb(189, 50, 7);
+    /* color:rgb(255, 255, 255); */
+}
+
 .jumbotron {
     background-color: rgb(189, 50, 7);
     color: #ffffff;
@@ -5,6 +10,32 @@
 
 .card-design {
     flex: 1 250px;
-    padding: 2px 0px 2px 0px; 
+    padding: 0px 0px 2px 0px; 
     margin-top: 10px;
     }
+
+.btn-ver {
+        width: 100%;
+        border-radius: 5px;
+        margin: 0px;
+}
+
+footer{
+    padding: 15px 0px 10px 0px;
+    background-color:  rgb(189, 50, 7);
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
+footer p {
+    text-align: center;
+}

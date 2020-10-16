@@ -39,28 +39,46 @@
         </div>
 
         <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><span class="oi oi-home"></span>&nbsp; Inicio
+                    </li>
+                </ol>
+            </nav>
             <!-- Example row of columns -->
             <div class="row">
-                <div class="col-md-4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
-                        magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tacos"
+                        aria-expanded="false" aria-controls="multicollapse1"><img src="img/icon-taco-256.png" width="16"
+                            height="16" alt="logo" /> Tacos Perry</button>
                 </div>
-                <div class="col-md-4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
-                        magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#ubicacion"
+                        aria-expanded="false" aria-controls="multicollapse2">Ubicación</button>
                 </div>
-                <div class="col-md-4">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id
-                        ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                        condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#videos"
+                        aria-expanded="false" aria-controls="multicollapse3">Videos</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 collapse multi-collapse" id="tacos">
+                    <p>
+                    <h3><img src="img/icon-taco-256.png" width="32" height="32" alt="logo" />Tacos Perry</h3>
+                    <p>Taqueria de Venta de todo tipo de comida</p>
+                    </p>
+                </div>
+                <div class="col-sm-4 collapse multi-collapse" id="ubicacion">
+                    <p>
+                    <h3>Ubicación</h3>
+                    <p>Calle Bilbao esquina con Bogota - Servicio a Domicilio </p>
+                    </p>
+                </div>
+                <div class="col-sm-4 collapse multi-collapse" id="videos">
+                    <p>
+                    <h3>Videos</h3>
+                    <p>Disfruta nuestro canal</p>
+                    </p>
                 </div>
             </div>
 
@@ -138,8 +156,38 @@
 
     </main>
 
-    <footer class="container">
-        <p>&copy; Company 2017-2020</p>
+    <footer>
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-4 d-flex flex-column" style="font-size:larger;">
+                    <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-official"
+                            aria-hidden="true"></i>
+                        Facebook</a>
+                    <a href="http://www.instagram.com" target="_blank"> <i class="fa fa-instagram"
+                            aria-hidden="true"></i>
+                        Instagram</a>
+                    <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter-square"
+                            aria-hidden="true"></i>
+                        Twtter</a>
+                </div>
+                <div class="col-sm-4">
+                    <address>
+                        <h5>Nuestra Ubicación</h5>
+                        <div><span class="oi oi-map-marker footer-address-icon"></span> Calle Bilbao esquina con Bogota
+                        </div>
+                        <div><span class="oi oi-map footer-address-icon"></span> Nuevo Laredo, Tamaulipas, Mexico</div>
+                        <div><span class="oi oi-phone footer-address-icon"></span> (867) 710-9090</div>
+                    </address>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-end" style="font-size:larger;">
+                    <a href="./about.html">Nosotros</a>
+                    <a href="./menu.html">Menu</a>
+                    <a href="./galeria.html">Galeria</a>
+                    <a href="./contacto.html">Contacto</a>
+                </div>
+            </div>
+            <p>&copy; Company 2017-2020</p>
+        </div>
     </footer>
 
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
